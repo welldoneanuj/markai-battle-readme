@@ -1,18 +1,18 @@
-# MarkAI Battle ⚔️
+# MarkAI Battle 🤖⚔️
 
-> Four AIs walk into a stock market. Only one can be right.
+> Four AI models walk into a stock market. Only one can be right.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting the NIFTY 50's next move — UP, DOWN, or SIDEWAYS. Every morning, they predict. Every evening, the market judges.
+**MarkAI Battle** is a live prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head every trading day — each calling NIFTY 50's direction (UP / DOWN / SIDEWAYS) before market open. Scores are settled at EOD. Humans can challenge the AIs too.
 
-Humans can challenge the AIs too. May the best intelligence win.
+Built and run solo, in public. No hype — just data.
 
-🔴 **Live now →** [markai.garganuj.com](https://markai.garganuj.com)
+🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
 ## 🏆 Leaderboard
 
-*After 6 sessions — updated daily*
+*6 sessions completed*
 
 | Rank | Model | Accuracy | Correct |
 |------|-------|----------|---------|
@@ -21,14 +21,14 @@ Humans can challenge the AIs too. May the best intelligence win.
 | 🥉 | Gemini 2.5 Flash | 33% | 2 / 6 |
 | 4️⃣ | GPT-4o | 33% | 2 / 6 |
 
-Grok 4 is running away with it early. The others are watching nervously.
+> Early days. The leaderboard will get interesting fast.
 
 ---
 
 ## 📅 Recent Results
 
-| Date | Result | NIFTY Close |
-|------|--------|-------------|
+| Date | Outcome | NIFTY Close |
+|------|---------|-------------|
 | 2026-04-14 | 🔴 DOWN | 23,843 |
 | 2026-04-13 | 🔴 DOWN | 23,843 |
 | 2026-04-10 | 🟢 UP | 24,051 |
@@ -39,37 +39,39 @@ Grok 4 is running away with it early. The others are watching nervously.
 
 ## ⚙️ How It Works
 
-1. **Every morning** — each AI model receives the same prompt with recent NIFTY data and market context
-2. **Each AI predicts** — UP 📈, DOWN 📉, or SIDEWAYS ➡️ for the day's closing direction
-3. **Market closes** — NIFTY 50 EOD price is recorded
-4. **Score updated** — correct predictions earn a point, leaderboard updates automatically
-5. **Repeat** — every trading day, no days off
+1. **Every morning** before market open, all four AI models independently predict NIFTY 50's direction — `UP`, `DOWN`, or `SIDEWAYS`
+2. **Each AI explains its reasoning** — macro context, technicals, sentiment, whatever it thinks matters
+3. **Market closes** → actual direction is recorded
+4. **Scores update** on the live leaderboard automatically
+5. **Humans can play too** — submit your own prediction and see how you stack up against the AIs
 
-No fine-tuning. No special market data feeds. Just raw reasoning vs. the market.
-
-Humans can submit their own predictions too — if you think you can beat the AIs, prove it.
+Simple rules. Real market. No do-overs.
 
 ---
 
-## 📝 Changelog
+## 🛠️ Recent Changelog
 
-| Commit | Description |
-|--------|-------------|
-| `6db8ed0` | 🚀 Initial commit — full MarkAI Battle stack |
+```
+081f626  fix: build_log + README update on every deploy (not post-push hook)
+e47c01f  fix: health check port 8000 → 8080
+5d9ceb9  add CI/CD: GitHub Actions deploy with health check + auto-rollback
+1af4c0a  add shareable card, build-log README auto-update, milestone tweets
+6db8ed0  initial commit — full MarkAI Battle stack
+```
 
-*Building in public. More commits coming daily.*
+> This README is auto-updated on every deploy. The build log keeps itself honest.
 
 ---
 
-## 👀 Follow Along
+## 📣 Follow Along
 
-This is a solo indie dev project, built and iterated on in the open. No team. No funding. Just curiosity about whether LLMs can read markets — or embarrass themselves trying.
+This is a solo indie project, built entirely in public. Every deploy, every insight, every time an AI embarrasses itself on a red day — I share it.
 
-- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
-- 💬 **Telegram** → Get daily prediction alerts *(link on the live site)*
-- 🐙 **This repo** → Watch for updates as the project evolves
+- 🌐 **Live Arena** → [markai.garganuj.com](https://markai.garganuj.com)
+- 💬 **Telegram** → Daily predictions + results drop here *(link coming soon)*
+- 🐦 **Updates** → Milestone moments get tweeted in real time
 
-If you find this interesting, drop a ⭐ — it genuinely helps a solo builder keep going.
+If this project interests you, watch the repo. More AIs, more markets, and human vs. AI tournaments are on the roadmap.
 
 ---
 
