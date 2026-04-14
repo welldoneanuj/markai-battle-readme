@@ -1,30 +1,30 @@
 # MarkAI Battle ⚔️
 
-> Four AIs walk into a stock market. Only one can be right.
+> Four AIs walk into a trading arena. Only one can predict the market. Humans can fight too.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market decides. Humans can challenge them too.
+**MarkAI Battle** is a live prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head every morning — each predicting whether NIFTY 50 will close **UP**, **DOWN**, or **SIDEWAYS**. Results are scored at EOD. No retries. No excuses.
 
-🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
+🌐 **Live site → [markai.garganuj.com](https://markai.garganuj.com)**
 
 ---
 
-## 🏆 Leaderboard
-
-*5 sessions completed*
+## 🏆 Leaderboard — 5 Sessions In
 
 | Rank | Model | Accuracy | Correct |
 |------|-------|----------|---------|
-| 🥇 | Grok 4 | 60% | 3 / 5 |
-| 🥈 | Claude Sonnet 4.6 | 20% | 1 / 5 |
-| 🥉 | Gemini 2.5 Flash | 20% | 1 / 5 |
-| 4️⃣ | GPT-4o | 20% | 1 / 5 |
+| 🥇 | Grok 4 | 60% | 3/5 |
+| 🥈 | Claude Sonnet 4.6 | 20% | 1/5 |
+| 🥉 | Gemini 2.5 Flash | 20% | 1/5 |
+| 4️⃣ | GPT-4o | 20% | 1/5 |
+
+> Early days. The leaderboard is volatile. Come back in 30 sessions.
 
 ---
 
 ## 📅 Recent Results
 
-| Date | Actual | NIFTY Close |
-|------|--------|-------------|
+| Date | Outcome | NIFTY Close |
+|------|---------|-------------|
 | 2026-04-13 | 🔴 DOWN | 23,843 |
 | 2026-04-10 | 🟢 UP | 24,051 |
 | 2026-04-09 | 🔴 DOWN | 23,775 |
@@ -35,17 +35,17 @@
 
 ## ⚙️ How It Works
 
-1. **Every morning** — each AI model independently predicts whether NIFTY 50 will close UP, DOWN, or SIDEWAYS
-2. **Market opens** — no peeking, no changing answers
-3. **EOD** — actual close is recorded, predictions are scored
-4. **Leaderboard updates** — accuracy tracked cumulatively over time
-5. **Humans welcome** — you can submit your own prediction and go up against the AIs
+1. **Every market morning** — each AI independently predicts NIFTY 50 direction: `UP` / `DOWN` / `SIDEWAYS`
+2. **No peeking** — predictions are locked before market open
+3. **EOD scoring** — actual close price determines the winner for the day
+4. **Leaderboard updates live** — accuracy tracked cumulatively across all sessions
+5. **Humans can challenge too** — think you can beat GPT-4o? Prove it on the live site
 
-Simple rules. Real data. No excuses.
+The system runs fully automated on a VPS with a Python backend, daily prediction agents, and a CI/CD pipeline with health checks and auto-rollback.
 
 ---
 
-## 🔄 Recent Changelog
+## 🔧 Recent Changelog
 
 ```
 f34f847  fix: server.py startup migration for mode column — prevents deploy crash
@@ -58,17 +58,19 @@ e47c01f  fix: health check port 8000 → 8080
 1af4c0a  add shareable card, build-log README auto-update, milestone tweets
 ```
 
+> This README is auto-updated on every deploy. What you see is what's live. 🚀
+
 ---
 
-## 👀 Follow Along
+## 📣 Follow Along
 
-This is a solo indie project, built entirely in public. No team. No funding. Just curiosity and a stubborn belief that this is fun.
+I'm building this entirely in public — solo, nights and weekends, figuring it out as I go.
 
-- 🌐 **Live arena:** [markai.garganuj.com](https://markai.garganuj.com)
-- 💬 **Daily updates & predictions:** Telegram bot at the live site
-- 🐙 **This repo:** Public changelog and leaderboard — code stays private for now
+- 🌐 **Live Arena** → [markai.garganuj.com](https://markai.garganuj.com)
+- 💬 **Daily predictions & updates** → Telegram bot (coming soon)
+- 🐦 **Build log & milestones** → [@welldoneanuj](https://x.com/welldoneanuj)
 
-If you find this interesting, share it. If the AIs embarrass themselves, enjoy it. Either way, check back tomorrow — the market opens again.
+If this project interests you, star the repo and watch the leaderboard shift over time. That's the whole point.
 
 ---
 
