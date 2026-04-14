@@ -1,27 +1,27 @@
-# MarkAI Battle 🤖⚔️
+# MarkAI Battle ⚔️
 
-> Four AI models walk into a stock market. Only one can be right.
+> Four AIs walk into a stock market. Only one can be right.
 
-**MarkAI Battle** is a live prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head every trading day — each calling NIFTY 50's direction (UP / DOWN / SIDEWAYS) before market open. Scores are settled at EOD. Humans can challenge the AIs too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head predicting the NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market judges. No excuses.
 
-Built and run solo, in public. No hype — just data.
+Humans can challenge the AIs too. 👀
 
-🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
+🔴 **Live:** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
 ## 🏆 Leaderboard
 
-*6 sessions completed*
+*After 6 sessions*
 
-| Rank | Model | Accuracy | Correct |
-|------|-------|----------|---------|
-| 🥇 | Grok 4 | **67%** | 4 / 6 |
-| 🥈 | Claude Sonnet 4.6 | 33% | 2 / 6 |
-| 🥉 | Gemini 2.5 Flash | 33% | 2 / 6 |
-| 4️⃣ | GPT-4o | 33% | 2 / 6 |
+| Rank | AI | Accuracy | Correct |
+|------|----|----------|---------|
+| 🥇 | Grok 4 | **67%** | 4/6 |
+| 🥈 | Claude Sonnet 4.6 | 33% | 2/6 |
+| 🥉 | Gemini 2.5 Flash | 33% | 2/6 |
+| 4️⃣ | GPT-4o | 33% | 2/6 |
 
-> Early days. The leaderboard will get interesting fast.
+Grok is currently eating everyone's lunch. But it's early days.
 
 ---
 
@@ -39,17 +39,17 @@ Built and run solo, in public. No hype — just data.
 
 ## ⚙️ How It Works
 
-1. **Every morning** before market open, all four AI models independently predict NIFTY 50's direction — `UP`, `DOWN`, or `SIDEWAYS`
-2. **Each AI explains its reasoning** — macro context, technicals, sentiment, whatever it thinks matters
-3. **Market closes** → actual direction is recorded
-4. **Scores update** on the live leaderboard automatically
-5. **Humans can play too** — submit your own prediction and see how you stack up against the AIs
+1. **Every morning** — each AI receives the same market context and predicts NIFTY 50 direction: `UP`, `DOWN`, or `SIDEWAYS`
+2. **Market opens** — predictions are locked in, no take-backs
+3. **EOD** — actual closing price is fetched, predictions are scored
+4. **Leaderboard updates** — accuracy tracked cumulatively across all sessions
+5. **You can play too** — submit your own prediction and see if you can beat the machines
 
-Simple rules. Real market. No do-overs.
+Simple rules. Real stakes. Daily accountability.
 
 ---
 
-## 🛠️ Recent Changelog
+## 📦 Changelog
 
 ```
 081f626  fix: build_log + README update on every deploy (not post-push hook)
@@ -59,19 +59,27 @@ e47c01f  fix: health check port 8000 → 8080
 6db8ed0  initial commit — full MarkAI Battle stack
 ```
 
-> This README is auto-updated on every deploy. The build log keeps itself honest.
+Auto-rollback on failed deploys. Because nothing is more embarrassing than a prediction app that can't stay up.
 
 ---
 
-## 📣 Follow Along
+## 🧱 Built in Public
 
-This is a solo indie project, built entirely in public. Every deploy, every insight, every time an AI embarrasses itself on a red day — I share it.
+Solo indie dev. No team, no VC, no safety net.
 
-- 🌐 **Live Arena** → [markai.garganuj.com](https://markai.garganuj.com)
-- 💬 **Telegram** → Daily predictions + results drop here *(link coming soon)*
-- 🐦 **Updates** → Milestone moments get tweeted in real time
+Every deploy is live. Every bug is public. Every win (and loss) gets tweeted.
 
-If this project interests you, watch the repo. More AIs, more markets, and human vs. AI tournaments are on the roadmap.
+This is what building in public looks like — messy, real, and worth it.
+
+---
+
+## 📡 Follow Along
+
+- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
+- 💬 **Daily predictions on Telegram** → *(coming soon)*
+- 🐦 **Behind-the-scenes on X** → milestone updates, rants, and results
+
+If you find this interesting, drop a ⭐ — it genuinely keeps the momentum going.
 
 ---
 
