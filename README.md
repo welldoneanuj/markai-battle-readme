@@ -1,32 +1,34 @@
 # MarkAI Battle ⚔️
 
-> Four AIs walk into a stock market. Only one can be right.
+> Four AIs walk into a stock market. Only one can win.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market decides. Humans can challenge them too.
+**[🔴 LIVE →](https://markai.garganuj.com)**
 
-🌐 **Live site → [markai.garganuj.com](https://markai.garganuj.com)**
+Every trading day, Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 each make a prediction: will NIFTY 50 go **UP**, **DOWN**, or **SIDEWAYS**? Results are scored at market close. Humans can challenge them too.
+
+Built and run by one person. Completely in public.
 
 ---
 
-## 🏆 Current Leaderboard
+## 🏆 Leaderboard
 
 *6 sessions completed*
 
-| Rank | Model | Accuracy | Correct |
-|------|-------|----------|---------|
-| 🥇 | Grok 4 | **67%** | 4 / 6 |
+| Rank | Model | Accuracy | Score |
+|------|-------|----------|-------|
+| 🥇 | Grok 4 | 67% | 4 / 6 |
 | 🥈 | Claude Sonnet 4.6 | 33% | 2 / 6 |
 | 🥉 | Gemini 2.5 Flash | 33% | 2 / 6 |
 | 4️⃣ | GPT-4o | 33% | 2 / 6 |
 
-Grok 4 is running away with it early. Plenty of sessions left for the others to fight back.
+Grok 4 is out here making the others look like interns. Early days though.
 
 ---
 
 ## 📅 Recent Results
 
-| Date | Outcome | NIFTY Close |
-|------|---------|-------------|
+| Date | Result | NIFTY Close |
+|------|--------|-------------|
 | 2026-04-15 | 🟢 UP | 24,231 |
 | 2026-04-13 | 🔴 DOWN | 23,843 |
 | 2026-04-10 | 🟢 UP | 24,051 |
@@ -37,17 +39,16 @@ Grok 4 is running away with it early. Plenty of sessions left for the others to 
 
 ## ⚙️ How It Works
 
-1. **Morning** — Each AI model receives the same market context (prev close, GIFT Nifty, global cues) and independently predicts: `UP` / `DOWN` / `SIDEWAYS`
-2. **Market hours** — Predictions are locked once NSE opens at 9:15 AM IST
-3. **Evening** — NIFTY 50 closing price is fetched at 3:30 PM IST and the session is scored
-4. **Leaderboard** — Accuracy updates in real time on the live site
-5. **You** — Humans can submit their own prediction and see how they stack up against the AIs
+1. **Every morning** — each AI receives the same market context and independently predicts NIFTY 50 direction for the session
+2. **Predictions lock** once the market opens at 9:15 AM IST
+3. **At 3:30 PM IST** — market closes, actual direction is recorded, scores are updated
+4. **Leaderboard updates** automatically. No human intervention in scoring.
 
-No fine-tuning. No hindsight. Raw daily predictions, publicly tracked.
+Humans can also submit their own predictions and compete directly against the AIs on the live site.
 
 ---
 
-## 🛠️ Recent Changelog
+## 🔧 Recent Changes
 
 ```
 af00c01  fix: never show blank page during 9:15 AM → next-cron gap
@@ -57,22 +58,28 @@ af00c01  fix: never show blank page during 9:15 AM → next-cron gap
 1c3ec25  fix: server.py shows today's session until 3:30 PM IST, not 9:15 AM
 f34f847  fix: server.py startup migration for mode column — prevents deploy crash
 2049891  fix: remove Breeze/Kite dependency, add holiday calendar, agent mode, stable data sources
-7bc651a  add CLAUDE.md — project guide for Claude Code sessions
+7bc651a  add: CLAUDE.md — project guide for Claude Code sessions
 ```
 
-Shipping fixes daily. Building this live, rough edges and all. 🔧
+Lots of edge cases when you're building around live market hours. Getting there.
 
 ---
 
-## 📣 Follow Along
+## 🙋 Challenge the AIs
 
-This is a solo indie project, built entirely in public. I share daily results, AI reasoning snippets, and behind-the-scenes dev updates.
+Think you can beat GPT-4o? Prove it.
 
-- 🌐 **Live Arena** → [markai.garganuj.com](https://markai.garganuj.com)
-- 🤖 **Telegram** → Coming soon
-- 🐦 **Updates** → Follow the commits, they tell the story
+Head to **[markai.garganuj.com](https://markai.garganuj.com)**, submit your prediction before 9:15 AM IST, and see where you land on the leaderboard by evening.
 
-If you find this interesting, star the repo and check back daily. The leaderboard is very much alive. 🚀
+---
+
+## 📡 Follow Along
+
+This is a build-in-public project. New features, fixes, and leaderboard drama get shared as it happens.
+
+- 🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
+- 💬 **Telegram:** Coming soon
+- 🐦 **Updates:** Follow [@welldoneanuj](https://github.com/welldoneanuj) on GitHub
 
 ---
 
