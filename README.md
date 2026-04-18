@@ -2,24 +2,26 @@
 
 > Four AIs walk into a stock market. Only one can be right.
 
-**MarkAI Battle** is a live prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head every trading day — each calling the NIFTY 50 direction (UP / DOWN / SIDEWAYS) before market open. Results are settled at EOD. Humans can challenge them too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market judges.
 
-🔴 **Live now →** [markai.garganuj.com](https://markai.garganuj.com)
+Humans can challenge them too. 👀
+
+🔴 **Live →** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
 ## 🏆 Leaderboard
 
-*After 8 completed sessions*
+*8 sessions completed*
 
-| Rank | Model | Accuracy | Score |
-|------|-------|----------|-------|
-| 🥇 | Grok 4 | 62% | 5 / 8 |
+| Rank | Model | Accuracy | Correct |
+|------|-------|----------|---------|
+| 🥇 | Grok 4 | **62%** | 5 / 8 |
 | 🥈 | Claude Sonnet 4.6 | 38% | 3 / 8 |
 | 🥉 | Gemini 2.5 Flash | 38% | 3 / 8 |
 | 4️⃣ | GPT-4o | 38% | 3 / 8 |
 
-Grok is cooking. The others are chasing. 👀
+Grok 4 is out front — but 8 sessions is still early days. The leaderboard can flip any week.
 
 ---
 
@@ -37,41 +39,43 @@ Grok is cooking. The others are chasing. 👀
 
 ## ⚙️ How It Works
 
-1. **Every morning** (before 9:15 AM IST), all four AIs submit their NIFTY 50 prediction: `UP`, `DOWN`, or `SIDEWAYS`
-2. **Humans can play too** — submit your own prediction on the live site before market opens
-3. **At end of day**, results are locked based on actual NIFTY close vs previous close
-4. **Scores update** on the leaderboard. The best AI (and human) over time wins bragging rights
+1. **Every morning** — each AI independently predicts NIFTY 50 direction: `UP`, `DOWN`, or `SIDEWAYS`
+2. **Market closes** — actual EOD price determines the ground truth
+3. **Score is updated** — correct predictions increment each AI's win count
+4. **Weekends too** — predictions run every 3 hours on weekends since news can still shift the trend
+5. **Results are posted** to the live site and pushed to Telegram automatically
 
-Simple. Brutal. Honest.
+No cherry-picking. No post-hoc edits. Predictions are locked in before the market opens.
 
 ---
 
-## 🛠️ Recent Changelog
+## 🔄 Recent Changes
 
-| Commit | Change |
-|--------|--------|
-| `db304f5` | fix: use free OpenRouter model chain instead of paid Claude for tweet reviewer |
-| `6df5751` | feat: analytics-driven tweet reviewer running via VPS cron at 8 AM IST |
-| `bb7eb89` | fix: twitter thread structure tuned for better algorithmic reach |
-| `d7855c0` | feat: cookie-based user sessions for human predictions |
-| `dd9c023` | fix: NameError `today_result → result` in `index()` form handler |
-| `f446deb` | fix: robust submit handler + global error logging in server.py |
-| `af00c01` | fix: no more blank pages during the 9:15 AM → next-cron gap |
-| `182f753` | fix: predictions always target the next session, never today once market opens |
+```
+c36a372  Merge PR #2 — CI/CD stabilisation
+4e98b25  fix: resolve all pyflakes lint errors blocking CI
+a3e13a8  fix: run predict.py identically on weekends/holidays + CI/CD pipeline
+         + test suite + cookie sessions + tweet restructure
+3ed5845  fix: no special-casing for weekends — same flow every day
+cbdf449  fix: predict every 3h on weekends — news can shift the trend
+8d0c976  fix: send weekend preview to Telegram instead of silently skipping
+734f72b  ci: full CI/CD pipeline — lint → test → deploy → smoke-test
+b434012  feat: pytest test suite — runs as pre-deploy gate on every push
+```
 
-> Building in public means shipping fixes in public too. No shame. 🔧
+Shipping fast, breaking things responsibly. 🚢
 
 ---
 
 ## 📣 Follow Along
 
-This is a solo indie project, built and iterated on daily. If you're into AI, markets, or just watching robots argue about stocks — come hang.
+This is a solo indie project, built and run in public. I share daily results, model breakdowns, and behind-the-scenes updates.
 
-- 🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
-- 🐦 **Updates on X/Twitter** — follow the daily AI vs market drama
-- 💬 **Telegram bot** — *coming soon*
+- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
+- 💬 **Telegram** → Get daily predictions & results delivered to you
+- 🐦 **Updates** — follow the build journey as it happens
 
-If you find this fun or useful, a ⭐ on the repo goes a long way.
+If you find this interesting, drop a ⭐ — it genuinely helps.
 
 ---
 
