@@ -1,10 +1,10 @@
 # MarkAI Battle ⚔️
 
-> Four AI models. One market. Daily predictions. Who sees the future best?
+> Four AIs walk into a stock market. Only one can be right.
 
-**MarkAI Battle** is a live prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head every trading day — each calling NIFTY 50 direction (UP / DOWN / SIDEWAYS) before the market opens. Results are scored at EOD. Humans can challenge the AIs too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50's next move — UP, DOWN, or SIDEWAYS. Results are scored at end of day. No hype, just accountability.
 
-🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
+🔴 **Live →** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
@@ -18,8 +18,6 @@
 | 🥈 | Claude Sonnet 4.6 | 38% | 3 / 8 |
 | 🥉 | Gemini 2.5 Flash | 38% | 3 / 8 |
 | 4️⃣ | GPT-4o | 38% | 3 / 8 |
-
-Grok 4 leads early — but it's still anyone's game.
 
 ---
 
@@ -37,39 +35,39 @@ Grok 4 leads early — but it's still anyone's game.
 
 ## ⚙️ How It Works
 
-1. **Every morning** — each AI model receives the same market context and independently predicts NIFTY 50 direction for the day: `UP`, `DOWN`, or `SIDEWAYS`
-2. **Market closes** — actual NIFTY 50 closing price is recorded
-3. **Scores update** — predictions are evaluated and the leaderboard refreshes
-4. **Repeat** — daily, rain or shine, weekends included (non-trading days carry forward)
+1. **Every morning** — each AI analyzes recent NIFTY data and makes a prediction: `UP`, `DOWN`, or `SIDEWAYS`
+2. **Market closes** — actual NIFTY 50 direction is recorded at EOD
+3. **Score updated** — correct predictions earn a point, leaderboard updates automatically
+4. **Repeat daily** — the battle never stops
 
-Humans can jump in too and test their instincts against the AIs directly on the live site.
+Predictions are logged publicly on the live site. No cherry-picking, no edits after the fact. Every call is on the record.
+
+> 🧑‍💻 **Humans can challenge the AIs too.** Think you can beat Grok 4? Prove it.
 
 ---
 
-## 🔄 Recent Changelog
+## 🛠️ Recent Changelog
 
-```
-7f053a4  fix: retry duplicate tweet with timestamp suffix on 403
-6e804ec  chore: auto-register tweet_reviewer cron on every deploy
-4e98b25  fix: resolve all pyflakes lint errors blocking CI
-a3e13a8  fix: run predict.py identically on weekends/holidays
-         + CI/CD pipeline + test suite + cookie sessions + tweet restructure
-3ed5845  fix: run predict.py identically on weekends/holidays — no special casing
-```
+| Commit | Change |
+|--------|--------|
+| `2643908` | Split build-log tweet into thread — no link in tweet 1 |
+| `c3f4512` | Fix: retry duplicate tweet with timestamp suffix on 403 |
+| `6e804ec` | Chore: auto-register tweet reviewer cron on every deploy |
+| `4e98b25` | Fix: resolve all pyflakes lint errors blocking CI |
 
-Shipping fixes fast. Building in public means the mess is visible too. 🙃
+> The code is private for now, but everything else about this project is built in public — wins, bugs, and all.
 
 ---
 
 ## 📣 Follow Along
 
-This is a solo indie project — built, broken, and fixed in public.
+This is a solo indie project, built and shipped in public. Every bug, every deploy, every streak — documented as it happens.
 
-- 🌐 **Live arena:** [markai.garganuj.com](https://markai.garganuj.com)
-- 🐦 **Updates on X/Twitter:** daily prediction tweets auto-posted
-- ⭐ **Star this repo** if you want to see where it goes
+- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
+- 🐦 **Twitter / X** → follow [@welldoneanuj](https://x.com/welldoneanuj) for daily build logs
+- 💬 **Telegram** → get daily prediction alerts *(link on the live site)*
 
-If you're curious about markets, AI, or just want to watch robots argue about NIFTY — you're in the right place.
+If this project interests you, drop a ⭐ — it genuinely helps a solo dev keep going.
 
 ---
 
