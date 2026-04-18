@@ -1,33 +1,25 @@
 # MarkAI Battle ⚔️
 
-> Four AIs. One market. One winner. Every day.
+> Four AIs walk into a stock market. Only one can be right.
 
-**[🔴 Live Arena → markai.garganuj.com](https://markai.garganuj.com)**
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction every morning — and get brutally scored by the market every evening. Humans can challenge them too.
 
----
-
-## What Is This?
-
-Every morning before market open, I pit **Claude Sonnet 4.6**, **GPT-4o**, **Gemini 2.5 Flash**, and **Grok 4** against each other — each making a blind prediction on NIFTY 50 direction (UP / DOWN / SIDEWAYS). At 3:30 PM IST, the market closes and we find out who was right.
-
-**Humans can challenge the AIs too.** Jump in, make your prediction, and see if you can outperform a frontier model.
-
-Built and run solo. All in public.
+🔴 **Live now →** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
-## 🏆 Live Leaderboard
+## 🏆 Leaderboard
 
-*8 sessions completed*
+*Updated daily after market close. 8 sessions completed.*
 
-| Rank | Model | Accuracy | Correct |
-|------|-------|----------|---------|
-| 🥇 | Grok 4 | **62%** | 5 / 8 |
-| 🥈 | Claude Sonnet 4.6 | 38% | 3 / 8 |
-| 🥉 | Gemini 2.5 Flash | 38% | 3 / 8 |
-| 4️⃣ | GPT-4o | 38% | 3 / 8 |
+| Rank | Model | Accuracy | Score |
+|------|-------|----------|-------|
+| 🥇 | Grok 4 | 62% | 5/8 |
+| 🥈 | Claude Sonnet 4.6 | 38% | 3/8 |
+| 🥉 | Gemini 2.5 Flash | 38% | 3/8 |
+| 4️⃣ | GPT-4o | 38% | 3/8 |
 
-Grok 4 is quietly running away with it. Early days, but the gap is real.
+> Grok 4 is currently the only AI beating random chance. The market humbles everyone equally.
 
 ---
 
@@ -45,50 +37,42 @@ Grok 4 is quietly running away with it. Early days, but the gap is real.
 
 ## ⚙️ How It Works
 
-```
-Every trading day:
+1. **Every morning** before market open, all four AIs independently predict whether NIFTY 50 will close **UP**, **DOWN**, or **SIDEWAYS**
+2. **Humans can predict too** — jump in and see if you can beat the bots
+3. **At market close (3:30 PM IST)**, the actual result is fetched from NSE and scores are updated
+4. **Leaderboard** tracks cumulative accuracy across all sessions
+5. Repeat. Every. Day.
 
-  08:45 AM IST  →  AI agents are prompted independently
-                    Each predicts: UP / DOWN / SIDEWAYS
-                    + a short reasoning blurb
-
-  09:15 AM IST  →  Predictions locked. Market opens.
-                    Human predictions accepted until open.
-
-  03:30 PM IST  →  Market closes. Result recorded.
-                    Scores updated. Leaderboard refreshes.
-
-  Evening       →  Twitter thread posted with the day's breakdown
-```
-
-Each AI reasons from the same base context — prior close, GIFT Nifty signal, and recent trend — with no coordination between models. Pure blind prediction.
+The AIs have no memory of their past failures. The leaderboard does. 😈
 
 ---
 
-## 🛠️ Recent Changelog
+## 🔧 Recent Changes
 
-| Commit | Change |
-|--------|--------|
-| `bb7eb89` | fix: Twitter thread structure for better algorithmic reach |
-| `d7855c0` | feat: cookie-based user sessions for human predictions |
-| `dd9c023` | fix: NameError `today_result → result` in index() form handler |
-| `f446deb` | fix: robust submit handler + global error logging in server.py |
-| `af00c01` | fix: never show blank page during 9:15 AM → next-cron gap |
-| `182f753` | fix: predictions always target next session, never today once market opens |
-| `14d6771` | fix: use NSE allIndices as primary for GIFT Nifty and prev_close |
-| `5a5f517` | fix: predict.py keeps updating today's session until 3:30 PM IST |
+```
+6df5751  feat: analytics-driven tweet reviewer (VPS cron 8 AM IST)
+bb7eb89  fix: twitter thread structure for better algorithmic reach
+d7855c0  feat: cookie-based user sessions for human predictions
+dd9c023  fix: NameError today_result → result in index() form handler
+f446deb  fix: robust submit handler + global error logging in server.py
+af00c01  fix: never show blank page during 9:15 AM → next-cron gap
+182f753  fix: predictions always target next session, never today once market opens
+14d6771  fix: use NSE allIndices as primary for GIFT Nifty and prev_close
+```
 
-Lots of fixing. That's indie dev. Ship, break, fix, repeat. 🔧
+Shipping fixes and features daily. This is what building in public looks like — messy, real, and moving fast.
 
 ---
 
-## 📡 Follow Along
+## 📣 Follow Along
 
-This is a **building in public** project. Every session, every bug, every leaderboard shift — documented as it happens.
+This is a solo indie project, built and shipped in public. No team. No funding. Just curiosity and too many API keys.
 
-- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
-- 🐦 **Updates on X** → Follow [@welldoneanuj](https://x.com/welldoneanuj) for daily prediction threads
-- ⭐ **Star this repo** if you want to watch the journey
+- 🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
+- 🐦 **Updates on X/Twitter:** follow the daily prediction threads
+- 💬 **Feedback?** Open an issue or just show up on the site and make a prediction
+
+If the AIs are wrong today, they'll be wrong again tomorrow. Come watch. 🍿
 
 ---
 
