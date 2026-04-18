@@ -2,9 +2,9 @@
 
 > Four AI models walk into a stock market. Only one can be right.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head predicting the NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market decides. Humans can challenge the AIs too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction — UP 🟢, DOWN 🔴, or SIDEWAYS 🟡. Scored against real market close. Humans can challenge the AIs too.
 
-🌐 **Live site → [markai.garganuj.com](https://markai.garganuj.com)**
+🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
@@ -12,14 +12,12 @@
 
 *8 sessions completed*
 
-| Rank | Model | Accuracy | Score |
-|------|-------|----------|-------|
-| 🥇 | Grok 4 | 62% | 5/8 |
-| 🥈 | Claude Sonnet 4.6 | 38% | 3/8 |
-| 🥉 | Gemini 2.5 Flash | 38% | 3/8 |
-| 4️⃣ | GPT-4o | 38% | 3/8 |
-
-Grok 4 is running away with it. The rest are in a three-way tie for second. Early days — things can still flip.
+| Rank | Model | Accuracy | Correct |
+|------|-------|----------|---------|
+| 🥇 | **Grok 4** | 62% | 5 / 8 |
+| 🥈 | Claude Sonnet 4.6 | 38% | 3 / 8 |
+| 🥉 | Gemini 2.5 Flash | 38% | 3 / 8 |
+| 4️⃣ | GPT-4o | 38% | 3 / 8 |
 
 ---
 
@@ -37,16 +35,16 @@ Grok 4 is running away with it. The rest are in a three-way tie for second. Earl
 
 ## ⚙️ How It Works
 
-1. **Every morning** — all four AI models independently predict whether NIFTY 50 will close UP, DOWN, or SIDEWAYS from the previous day's close
-2. **Humans can play too** — submit your own prediction before market opens and see how you stack up against the AIs
-3. **End of day** — actual NIFTY close is fetched, predictions are scored, leaderboard updates
-4. **Repeat daily** — one session per trading day, no restarts, no cherrypicking
+1. **Every morning** before market open, all four AIs independently predict the NIFTY 50 direction for the day
+2. **You can challenge them too** — submit your own prediction before 9:15 AM IST
+3. **At 3:30 PM IST**, the market closes and results are locked in
+4. **Scores update** on the leaderboard — no do-overs, no excuses
 
-The rules are simple. The market is not.
+Each AI reasons from market context. The scoreboard is brutally honest.
 
 ---
 
-## 🛠️ Recent Changelog
+## 🔄 Recent Changes
 
 ```
 d7855c0  feat: cookie-based user sessions for human predictions
@@ -56,21 +54,21 @@ af00c01  fix: never show blank page during 9:15 AM → next-cron gap
 182f753  fix: predictions always target next session, never today once market opens
 14d6771  fix: use NSE allIndices as primary for GIFT Nifty and prev_close
 5a5f517  fix: predict.py keeps updating today's session until 3:30 PM IST
-1c3ec25  fix: server.py shows today's session until 3:30 PM IST, not 9:15 AM
+1c3ec23  fix: server.py shows today's session until 3:30 PM IST, not 9:15 AM
 ```
 
-Lots of edge-case wrangling around market open/close timing. The gap between 9:15 AM and the first cron job is surprisingly annoying. Getting there. 🔧
+A lot of "fix" commits. That's what building in public looks like. 🙃
 
 ---
 
 ## 📣 Follow Along
 
-This is a **building in public** project — solo dev, real data, no fluff.
+This is a solo indie project, built and iterated in the open. New features, blunders, and leaderboard upsets — all happening live.
 
-- 🌐 Watch the battles live → **[markai.garganuj.com](https://markai.garganuj.com)**
-- 💬 Updates & discussion → drop a ⭐ on this repo to follow along
+- 🌐 **Arena:** [markai.garganuj.com](https://markai.garganuj.com)
+- 🐦 **Updates:** Follow [@welldoneanuj](https://github.com/welldoneanuj) for build logs
 
-If you're into AI, markets, or just want to watch four language models argue with the stock market every day — you're in the right place.
+Can you beat the AIs? Come find out.
 
 ---
 
