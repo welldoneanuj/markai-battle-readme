@@ -1,10 +1,10 @@
 # MarkAI Battle ⚔️
 
-> Four AIs walk into a stock market. Only one can be right.
+> *Four AI models walk into a stock market. Only one can be right.*
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market judges. Humans can challenge them too.
+An AI prediction arena where **Claude Sonnet 4.6**, **GPT-4o**, **Gemini 2.5 Flash**, and **Grok 4** compete daily — predicting whether NIFTY 50 will go **UP**, **DOWN**, or **SIDEWAYS**. Humans can challenge the AIs too. Results scored at end of day. No mercy.
 
-🔴 **Live:** [markai.garganuj.com](https://markai.garganuj.com)
+🌐 **Live site → [markai.garganuj.com](https://markai.garganuj.com)**
 
 ---
 
@@ -12,14 +12,14 @@
 
 *9 sessions completed*
 
-| Rank | Model | Accuracy | Score |
-|------|-------|----------|-------|
-| 🥇 | Grok 4 | 56% | 5/9 |
-| 🥈 | Gemini 2.5 Flash | 44% | 4/9 |
-| 🥉 | GPT-4o | 44% | 4/9 |
-| 4️⃣ | Claude Sonnet 4.6 | 33% | 3/9 |
+| Rank | Model | Accuracy | Correct |
+|------|-------|----------|---------|
+| 🥇 | Grok 4 | **56%** | 5 / 9 |
+| 🥈 | Gemini 2.5 Flash | 44% | 4 / 9 |
+| 🥉 | GPT-4o | 44% | 4 / 9 |
+| 4️⃣ | Claude Sonnet 4.6 | 33% | 3 / 9 |
 
-> The market humbles everyone equally. Even the fancy ones.
+> Grok 4 is quietly pulling ahead. The rest are bunched up. Everything is still very much up for grabs.
 
 ---
 
@@ -37,48 +37,39 @@
 
 ## ⚙️ How It Works
 
-1. **Morning** — Each AI independently analyzes overnight news, market sentiment, and recent NIFTY data
-2. **Prediction** — They each call it: `UP`, `DOWN`, or `SIDEWAYS`
-3. **EOD** — The market closes. The scoreboard updates. No mercy.
-4. **Repeat** — Every trading day, forever
+1. **Every morning** — each AI model receives the same prompt: fresh market news, recent NIFTY price action, and a clean question: *UP, DOWN, or SIDEWAYS today?*
+2. **Each model reasons independently** and locks in its prediction with a confidence score and rationale.
+3. **At end of day** — the actual NIFTY 50 closing direction is recorded and scores are updated.
+4. **Humans can play too** — submit your own prediction before market open and see how you stack up against the AIs.
+5. **Everything is transparent** — predictions, reasoning, and scores are all public on the live site.
 
-Predictions are fully automated. No human is coaching the AIs before each session. They read the same news you do and make their call.
-
-**Humans can challenge the AIs too** — head to the live site, make your prediction, and see if you can beat the machines.
-
----
-
-## 🛠️ Recent Changes
-
-```
-c7e9064  fix(news): replace broken RSS feeds with Google News RSS, update free model chain
-349f09a  fix: fetch news fresh on every predict run — no caching
-dca15cc  feat: add #BuildInPublic #IndieHacker to build-log tweet
-2643908  feat: split build-log tweet into thread — no link in tweet 1
-```
-
-Shipping fixes and features in public, one commit at a time. The build log goes out on Twitter/X every day alongside the predictions.
+No fine-tuning. No hindsight. Just raw AI judgment vs. the market, every single day.
 
 ---
 
-## 🔭 What's Next
+## 🛠️ Recent Changelog
 
-- More AIs entering the arena
-- Human leaderboard (yes, you can beat them)
-- Streak tracking and prediction confidence scores
-- Historical accuracy breakdowns by market condition
+| Commit | Change |
+|--------|--------|
+| `8f3be2c` | Fix Twitter 403 errors — smarter retry logic with random backoff |
+| `c7e9064` | Replace broken RSS feeds with Google News RSS; refresh free model chain |
+| `349f09a` | Fetch news fresh on every prediction run — no stale cache |
+| `dca15cc` | Add `#BuildInPublic` `#IndieHacker` tags to build-log tweets |
+| `2643908` | Split build-log tweet into a thread — better reach, cleaner format |
+
+Shipping fixes in public. Breaking things in public. Fixing them in public. That's the vibe. 🤷
 
 ---
 
-## 📡 Follow Along
+## 📣 Follow Along
 
-This is a solo indie project, built entirely in public. No VC. No team. Just code, coffee, and NIFTY candles.
+This is a **solo indie project**, built and run entirely in public. If you're into AI, markets, or watching someone debug Twitter API rate limits at midnight — this is for you.
 
-- 🌐 **Live site:** [markai.garganuj.com](https://markai.garganuj.com)
-- 💬 **Telegram:** Get daily predictions straight to your phone *(bot link on the live site)*
-- 🐦 **Build log:** Follow [@welldoneanuj](https://twitter.com/welldoneanuj) for daily updates
+- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
+- 🐦 **Updates on X/Twitter** — follow `#MarkAIBattle` for daily build logs
+- 💬 **Telegram** — join the bot for daily prediction alerts *(link on the live site)*
 
-If you find this interesting, drop a ⭐ — it genuinely keeps the motivation going.
+Star the repo if you want to see where this goes. 🌟
 
 ---
 
