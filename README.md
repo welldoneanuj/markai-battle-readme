@@ -1,16 +1,18 @@
-# MarkAI Battle 🥊
+# MarkAI Battle ⚔️
 
 > Four AIs walk into a stock market. Only one can be right.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting the NIFTY 50 direction — UP, DOWN, or SIDEWAYS — every single trading day. Humans can challenge them too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head predicting the NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market judges.
 
-Live at 👉 **[markai.garganuj.com](https://markai.garganuj.com)**
+Humans can challenge the AIs too. May the best mind win. 🧠
+
+🔴 **Live:** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
 ## 🏆 Leaderboard
 
-*9 sessions completed*
+*(After 9 sessions)*
 
 | Rank | Model | Accuracy | Correct |
 |------|-------|----------|---------|
@@ -19,7 +21,7 @@ Live at 👉 **[markai.garganuj.com](https://markai.garganuj.com)**
 | 🥉 | GPT-4o | 44% | 4 / 9 |
 | 4️⃣ | Claude Sonnet 4.6 | 33% | 3 / 9 |
 
-> Early days. The leaderboard will get spicy as sessions stack up. 🌶️
+> Nobody's crushing it yet. The market humbles everyone equally.
 
 ---
 
@@ -37,38 +39,42 @@ Live at 👉 **[markai.garganuj.com](https://markai.garganuj.com)**
 
 ## ⚙️ How It Works
 
-1. **Every morning** before market open, each AI receives the same context — recent NIFTY data, fresh news headlines, and market indicators
-2. **Each AI makes a prediction** — UP, DOWN, or SIDEWAYS — with a short reasoning
-3. **Market closes** at 3:30 PM IST
-4. **Scores are updated** based on actual NIFTY 50 closing direction
-5. **The leaderboard evolves** one trading day at a time
+1. **Every morning** — all four AIs independently analyze market signals and predict NIFTY 50 direction: `UP`, `DOWN`, or `SIDEWAYS`
+2. **Each AI** gets fresh news on every run — no caching, no stale context
+3. **End of day** — actual NIFTY close is recorded and predictions are scored
+4. **Leaderboard updates** — accuracy tracked cumulatively across all sessions
+5. **Humans can play too** — submit your own prediction and see how you stack up against the machines
 
-Humans can jump in and challenge the AIs directly on the live site. Beat the bots if you can. 😤
+No cheating. No hindsight. Just predictions, locked in before market open.
 
 ---
 
 ## 🛠️ Recent Changelog
 
-| Commit | Change |
-|--------|--------|
-| `349f09a` | fix: fetch news fresh on every predict run — no caching |
-| `dca15cc` | feat: add #BuildInPublic #IndieHacker to build-log tweet |
-| `2643908` | feat: split build-log tweet into thread — no link in tweet 1 |
-| `c3f4512` | fix: retry duplicate tweet with timestamp suffix on 403 |
+```
+91aaefd  Merge PR #7 — fresh news fetch fix
+349f09a  fix: fetch news fresh on every predict run — no caching
+415c35a  Merge PR #6
+dca15cc  feat: add #BuildInPublic #IndieHacker to build-log tweet
+46d8891  Merge PR #5
+2643908  feat: split build-log tweet into thread — no link in tweet 1
+7f053a4  Merge PR #4
+c3f4512  fix: retry duplicate tweet with timestamp suffix on 403
+```
 
-Building this entirely in public — bugs, fixes, and all. 🔧
+Small fixes, daily shipping. That's the vibe. 🚢
 
 ---
 
-## 📣 Follow Along
+## 👀 Follow Along
 
-This is a solo indie project, built and iterated on daily. Every prediction, every result, every code fix happens in the open.
+This is a solo indie project, built and iterated on in public. Every session, every fix, every embarrassing loss to a chatbot — it's all out there.
 
 - 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
-- 🐦 **Build log** → Follow `#MarkAIBattle` on X/Twitter
-- 💬 **Telegram** → Get daily predictions straight to your phone *(link on site)*
+- 🐦 **Build log** → Follow on Twitter/X for daily prediction threads with `#BuildInPublic #IndieHacker`
+- 💬 **Get alerts** → Telegram bot coming soon
 
-If you find this interesting, drop a ⭐ — it genuinely keeps the momentum going.
+If you find this interesting, star the repo, share it, or just come back tomorrow to see if Grok 4 keeps its lead. 🌟
 
 ---
 
