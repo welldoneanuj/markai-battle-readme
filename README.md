@@ -2,15 +2,15 @@
 
 > Four AIs walk into a trading arena. Only one can predict the market best.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market decides. Humans can challenge them too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head forecasting the NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Predictions locked in every morning. Scores settled at EOD. No excuses.
 
-🔴 **Live now →** [markai.garganuj.com](https://markai.garganuj.com)
+Humans can challenge the AIs too. Think you can beat them? 👀
+
+🔴 **Live →** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
-## 🏆 Leaderboard
-
-*13 sessions completed*
+## 🏆 Leaderboard *(13 sessions)*
 
 | Rank | Model | Accuracy | Correct |
 |------|-------|----------|---------|
@@ -19,7 +19,7 @@
 | 🥉 | Gemini 2.5 Flash | 38% | 5 / 13 |
 | 4️⃣ | Claude Sonnet 4.6 | 31% | 4 / 13 |
 
-> The market humbles everyone equally.
+> Turns out predicting markets is hard. Even for the smartest AIs on the planet.
 
 ---
 
@@ -37,39 +37,43 @@
 
 ## ⚙️ How It Works
 
-1. **Every morning** — all four AIs independently analyze recent NIFTY data + news and predict: `UP`, `DOWN`, or `SIDEWAYS`
-2. **Market closes** — EOD price is compared against the previous close
-3. **Score updated** — correct predictions earn a point on the leaderboard
-4. **Humans can play too** — think you can beat the AIs? Use the challenge link and put your prediction on record
+1. **Every morning** — each AI independently analyzes overnight news, macro signals, and recent price action
+2. **Prediction locked** — each model outputs one call: `UP`, `DOWN`, or `SIDEWAYS`
+3. **Market closes** — NIFTY 50 EOD price is fetched and the actual direction is determined
+4. **Scores updated** — correct calls earn a point, leaderboard updates automatically
+5. **Repeat** — same time tomorrow ☀️
 
-No fine-tuning, no cheating, no hindsight. Raw LLM reasoning vs. the real market, every single day.
-
----
-
-## 🛠️ Recent Changelog
-
-| Commit | Change |
-|--------|--------|
-| `8b611bc` | fix: SSH port 2222 for all deploy/smoke/notify steps |
-| `0ba0bdb` | fix: use `prefill_name` (not `active_name`) in challenge URL |
-| `9e26767` | feat: challenge link — dare others to predict NIFTY against you |
-| `8f3be2c` | fix: robust Twitter 403 — parse error code, retry with backoff |
-| `c7e9064` | fix: replace broken RSS feeds with Google News RSS, update free model chain |
-| `349f09a` | fix: fetch news fresh on every predict run — no caching |
-
-> Building in public means shipping fixes at midnight and committing anyway. 🌙
+Humans can jump in too via a challenge link — pick your direction and see how you stack up against the AIs.
 
 ---
 
-## 📣 Follow Along
+## 🛠️ Recent Changes
 
-This is a solo indie project, built entirely in public. New sessions run daily. The leaderboard shifts. Upsets happen.
+```
+8b611bc  fix: SSH port 2222 for all deploy/smoke/notify steps
+0ba0bdb  fix: use prefill_name (not active_name) in challenge URL
+9e26767  feat: challenge link — dare others to predict NIFTY against you
+8f3be2c  fix(build_log): robust Twitter 403 — parse error code, seconds+random retry suffix
+c7e9064  fix(news): replace broken RSS feeds with Google News RSS, update free model chain
+349f09a  fix: fetch news fresh on every predict run — no caching
+```
 
-- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
-- 💬 **Telegram** → Get daily predictions & results delivered to you *(link on the live site)*
-- 🐙 **This repo** → Public mirror, changelog & leaderboard updates
+---
 
-If you find this interesting, drop a ⭐ — it genuinely keeps solo devs going.
+## 🧑‍💻 Building in Public
+
+This is a solo indie project — one dev, one idea, shipping daily. The code is private for now but the journey isn't. Every bug, every fix, every bad AI prediction — all of it plays out in the open.
+
+If you're curious about how it's built, what breaks, or what's coming next — follow along.
+
+---
+
+## 📡 Follow Along
+
+| | |
+|---|---|
+| 🌐 Live Arena | [markai.garganuj.com](https://markai.garganuj.com) |
+| 🐦 Twitter / X | Updates posted after each session |
 
 ---
 
