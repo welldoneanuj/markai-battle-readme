@@ -1,32 +1,34 @@
-# MarkAI Battle 🤖⚔️
+# MarkAI Battle ⚔️
 
-> Four AI models walk into a stock market. Only one can be right.
+> Four AIs walk into a stock market. None of them are crushing it — yet.
 
-**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head predicting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they commit. Every evening the market decides. No takebacks.
+**[🔴 LIVE → markai.garganuj.com](https://markai.garganuj.com)**
 
-Humans can join too. Think you can beat the bots?
+Every morning, Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 put their reputations on the line predicting whether NIFTY 50 will go **UP**, **DOWN**, or **SIDEWAYS**. At market close, the scoreboard updates. No excuses. No do-overs.
 
-🔴 **Live →** [markai.garganuj.com](https://markai.garganuj.com)
+Humans can play too. 👀
 
 ---
 
-## 🏆 Live Leaderboard *(13 sessions)*
+## 🏆 Live Leaderboard
 
-| Rank | Model | Win Rate | Correct |
+*13 sessions completed*
+
+| Rank | Model | Accuracy | Correct |
 |------|-------|----------|---------|
 | 🥇 | GPT-4o | 46% | 6/13 |
 | 🥈 | Grok 4 | 46% | 6/13 |
 | 🥉 | Gemini 2.5 Flash | 38% | 5/13 |
 | 4️⃣ | Claude Sonnet 4.6 | 31% | 4/13 |
 
-*Updated daily at market close.*
+*The market humbles everyone equally.*
 
 ---
 
 ## 📅 Recent Results
 
-| Date | Outcome | NIFTY Close |
-|------|---------|-------------|
+| Date | Result | NIFTY Close |
+|------|--------|-------------|
 | 2026-04-24 | 🔴 DOWN | 23898 |
 | 2026-04-23 | 🔴 DOWN | 24173 |
 | 2026-04-22 | 🔴 DOWN | 24378 |
@@ -37,38 +39,39 @@ Humans can join too. Think you can beat the bots?
 
 ## ⚙️ How It Works
 
-1. **Every morning** — all four AIs independently predict whether NIFTY 50 will close UP, DOWN, or SIDEWAYS
-2. **Market closes** — the actual result comes in, predictions are scored, leaderboard updates
-3. **You can play** — submit your own prediction before market open and see where you land on the board
-4. **Challenge friends** — share your prediction link on WhatsApp or Twitter and drag them into the arena
+1. **Every morning** — all four AIs make their NIFTY 50 direction call (UP / DOWN / SIDEWAYS)
+2. **Market closes** — actual NIFTY movement is recorded
+3. **Scores update live** — accuracy tracked across every session, no cherry-picking
+4. **Humans jump in** — make your own prediction, beat the AIs, get on the leaderboard
+5. **Share the drama** — dare your friends to predict against you via WhatsApp or Twitter
 
-That's it. No fancy models. No financial advice. Just AIs being humbled by markets every single day.
+Simple. Transparent. Ruthlessly honest.
 
 ---
 
 ## 🛠️ What's Built
 
-- **Daily AI predictions** — GPT-4o, Grok 4, Gemini 2.5 Flash & Claude Sonnet 4.6 call UP / DOWN / SIDEWAYS every morning
-- **Live scoring** — accuracy tracked and updated at market close across every session
-- **Human challenger mode** — jump in, make your pick, appear on the leaderboard
-- **Challenge links** — one-tap dare to friends via WhatsApp or Twitter
-- **Shareable result cards** — beautiful post-session cards you can flex with
-- **Auto-posted predictions thread** — daily predictions go live on X/Twitter without me lifting a finger
-- **Telegram bot** — subscribe for morning predictions + end-of-day results, straight to your phone
+- 🤖 **4 AI predictions** every morning — UP / DOWN / SIDEWAYS, no abstaining
+- 📊 **Live scoring** at market close — accuracy tracked across all sessions
+- 🧑 **Human challenger mode** — predict alongside the AIs and appear on the leaderboard
+- 🔗 **Challenge links** — dare friends to beat you on WhatsApp / Twitter
+- 🃏 **Shareable result cards** — because wins (and losses) deserve an audience
+- 🐦 **Daily prediction thread** auto-posted to X/Twitter every morning
+- 📲 **Telegram bot** — get morning predictions + end-of-day results straight to your phone
 
 ---
 
 ## 📣 Follow Along
 
-This is a solo indie project, built entirely in public. New features ship regularly.
+This is a solo indie project, built fully in public. New features ship regularly.
 
 | | |
 |---|---|
 | 🌐 Live site | [markai.garganuj.com](https://markai.garganuj.com) |
-| 💬 Telegram bot | Subscribe for daily predictions + results |
-| 🐦 Built by | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
+| 📲 Telegram bot | Subscribe for daily predictions + results |
+| 🐦 Builder | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
 
-If you find this interesting, drop a ⭐ — it genuinely helps.
+If you find this interesting, drop a ⭐ — it genuinely helps a solo dev keep building.
 
 ---
 
