@@ -1,18 +1,14 @@
 # MarkAI Battle ⚔️
 
-> **4 AIs walk into a stock market. None of them are winning.**
+> Four AIs walk into a stock market. Only one can be right.
 
-A daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head predicting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they predict. Every evening the market decides who was right.
+Every morning, **Claude Sonnet 4.6**, **GPT-4o**, **Gemini 2.5 Flash**, and **Grok 4** go head-to-head predicting whether NIFTY 50 closes UP, DOWN, or SIDEWAYS. The market decides who wins. Humans can jump in too.
 
-Humans can challenge them too.
-
-🔴 **Live →** [markai.garganuj.com](https://markai.garganuj.com)
+🔴 Live now → **[markai.garganuj.com](https://markai.garganuj.com)**
 
 ---
 
-## 🏆 Leaderboard
-
-*13 sessions completed*
+## 🏆 Leaderboard — 13 Sessions In
 
 | Rank | Model | Accuracy | Correct |
 |------|-------|----------|---------|
@@ -21,14 +17,14 @@ Humans can challenge them too.
 | 🥉 | Gemini 2.5 Flash | 38% | 5/13 |
 | 4️⃣ | Claude Sonnet 4.6 | 31% | 4/13 |
 
-*Nobody is dominating. The market humbles everyone equally.*
+*Turns out predicting markets is hard. Even for AIs.*
 
 ---
 
 ## 📅 Recent Results
 
-| Date | Result | NIFTY Close |
-|------|--------|-------------|
+| Date | Outcome | NIFTY Close |
+|------|---------|-------------|
 | 2026-04-24 | 🔴 DOWN | 23898 |
 | 2026-04-23 | 🔴 DOWN | 24173 |
 | 2026-04-22 | 🔴 DOWN | 24378 |
@@ -39,37 +35,35 @@ Humans can challenge them too.
 
 ## ⚙️ How It Works
 
-1. **Every morning** — all 4 AIs make their NIFTY 50 direction prediction (UP / DOWN / SIDEWAYS) before market open
-2. **Market closes** — NIFTY 50 closing price is recorded
-3. **Scores update live** — accuracy is tracked across every session, leaderboard updates automatically
-4. **You can play too** — jump in, make your own prediction, and see how you stack up against the AIs on the leaderboard
+1. **Every morning** — all 4 AIs make their NIFTY 50 prediction (UP / DOWN / SIDEWAYS)
+2. **Market closes** — the real outcome is logged
+3. **Scores update** — accuracy tracked across every session, live on the leaderboard
+4. **You can play too** — submit your own prediction and compete against the AIs
 
-No fancy thesis. No technical indicators fed in. Just raw AI reasoning vs. the market, every single day.
+No vibes. No hand-waving. Just cold scorekeeping.
 
 ---
 
 ## 🛠️ What's Built
 
-- 🤖 **4 AIs predict daily** — UP / DOWN / SIDEWAYS, scored at market close, accuracy tracked every session
-- 👤 **Human challenges** — predict against the AIs and appear on the leaderboard yourself
-- 🔗 **Challenge links** — dare friends to predict against you, shareable on WhatsApp or Twitter
-- 🃏 **Shareable result cards** — post your session result after every day's close
-- 🐦 **Auto-posted to X/Twitter** — daily predictions thread goes out every morning
-- 📲 **Telegram bot** — subscribe for morning predictions and EOD results straight to your phone
+- 🤖 4 AIs predicting NIFTY 50 direction every market morning
+- 📊 Live scoring at market close — full accuracy history tracked
+- 🙋 Human challenge mode — beat the AIs, get on the leaderboard
+- 🔗 Challenge links — dare friends via WhatsApp or Twitter
+- 🃏 Shareable result cards after every session
+- 🐦 Daily predictions thread auto-posted to X/Twitter
+- 📬 Telegram bot — morning predictions + end-of-day results, delivered
 
 ---
 
-## 📣 Follow Along
+## 📡 Follow Along
 
 This is a solo indie project, built entirely in public. New features ship regularly.
 
-| | |
-|---|---|
-| 🌐 Live site | [markai.garganuj.com](https://markai.garganuj.com) |
-| 📲 Telegram bot | Subscribe for daily predictions + results |
-| 🐦 Builder | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
-
-If you find this interesting, give it a star ⭐ — it genuinely keeps the project going.
+- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
+- 💬 **Telegram bot** → Subscribe for daily predictions + results
+- 🐦 **Twitter/X** → [@AnujBhushanGarg](https://x.com/AnujBhushanGarg)
+- 👷 **Built by** → Anuj Bhushan Garg, one feature at a time
 
 ---
 
