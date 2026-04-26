@@ -1,23 +1,25 @@
-# MarkAI Battle ⚔️
+# MarkAI Battle 🤖⚔️
 
-> *Four AIs walk into a stock market. None of them knows what they're doing — but we're keeping score.*
+> Four AI models walk into a stock market. Only one can be right.
 
-Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 predict the NIFTY 50 direction every single morning. I score them live at market close. You can challenge them too.
+**MarkAI Battle** is a daily prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head predicting NIFTY 50 direction — UP, DOWN, or SIDEWAYS. Every morning they commit. Every evening the market decides. No takebacks.
 
-🔗 **Live arena → [markai.garganuj.com](https://markai.garganuj.com)**
+Humans can join too. Think you can beat the bots?
+
+🔴 **Live →** [markai.garganuj.com](https://markai.garganuj.com)
 
 ---
 
-## 🏆 Leaderboard — 13 Sessions
+## 🏆 Live Leaderboard *(13 sessions)*
 
-| Rank | Model | Accuracy | Correct |
+| Rank | Model | Win Rate | Correct |
 |------|-------|----------|---------|
 | 🥇 | GPT-4o | 46% | 6/13 |
 | 🥈 | Grok 4 | 46% | 6/13 |
 | 🥉 | Gemini 2.5 Flash | 38% | 5/13 |
 | 4️⃣ | Claude Sonnet 4.6 | 31% | 4/13 |
 
-*Updated daily after market close.*
+*Updated daily at market close.*
 
 ---
 
@@ -33,26 +35,26 @@ Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 predict the NIFTY 50 dir
 
 ---
 
-## 🤔 How It Works
+## ⚙️ How It Works
 
-1. **Every morning** — all four AIs are prompted to predict whether NIFTY 50 will close **UP**, **DOWN**, or **SIDEWAYS** that day
-2. **Market closes** — I score each prediction against the actual outcome
-3. **Leaderboard updates** — accuracy is tracked cumulatively across every session
-4. **You can play too** — submit your own prediction, land on the leaderboard, and see if you can beat the bots
+1. **Every morning** — all four AIs independently predict whether NIFTY 50 will close UP, DOWN, or SIDEWAYS
+2. **Market closes** — the actual result comes in, predictions are scored, leaderboard updates
+3. **You can play** — submit your own prediction before market open and see where you land on the board
+4. **Challenge friends** — share your prediction link on WhatsApp or Twitter and drag them into the arena
 
-No fancy quant models. No insider data. Just AI confidence vs. market chaos.
+That's it. No fancy models. No financial advice. Just AIs being humbled by markets every single day.
 
 ---
 
 ## 🛠️ What's Built
 
-- 🤖 **4 AIs predict daily** — UP / DOWN / SIDEWAYS on NIFTY 50 every morning
-- 📊 **Live scoring** — results locked in at market close, accuracy tracked session by session
-- 👤 **Human challenge mode** — predict against the AIs and appear on the leaderboard
-- 🔗 **Challenge links** — dare your friends to beat you on WhatsApp or Twitter
-- 🃏 **Shareable result cards** — one tap to flex (or cry) after each session
-- 🐦 **Daily thread on X/Twitter** — morning predictions auto-posted every day
-- 📲 **Telegram bot** — subscribe for morning predictions + end-of-day results, straight to your phone
+- **Daily AI predictions** — GPT-4o, Grok 4, Gemini 2.5 Flash & Claude Sonnet 4.6 call UP / DOWN / SIDEWAYS every morning
+- **Live scoring** — accuracy tracked and updated at market close across every session
+- **Human challenger mode** — jump in, make your pick, appear on the leaderboard
+- **Challenge links** — one-tap dare to friends via WhatsApp or Twitter
+- **Shareable result cards** — beautiful post-session cards you can flex with
+- **Auto-posted predictions thread** — daily predictions go live on X/Twitter without me lifting a finger
+- **Telegram bot** — subscribe for morning predictions + end-of-day results, straight to your phone
 
 ---
 
@@ -63,10 +65,10 @@ This is a solo indie project, built entirely in public. New features ship regula
 | | |
 |---|---|
 | 🌐 Live site | [markai.garganuj.com](https://markai.garganuj.com) |
-| 📲 Telegram bot | Subscribe on the live site |
+| 💬 Telegram bot | Subscribe for daily predictions + results |
 | 🐦 Built by | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
 
-If you find this interesting — star the repo, share it, or just come predict tomorrow's NIFTY move. Let's see if you can beat the machines. 🎯
+If you find this interesting, drop a ⭐ — it genuinely helps.
 
 ---
 
