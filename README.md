@@ -1,10 +1,10 @@
-# MarkAI Battle ⚔️
+# MarkAI Battle 🤖⚔️
 
-> Four AIs walk into a stock market. None of them know what they're doing — but we're keeping score.
+> Four AIs walk into a stock market. None of them really know what's going to happen — but we're keeping score.
 
-**Claude Sonnet 4.6 vs GPT-4o vs Gemini 2.5 Flash vs Grok 4** — predicting NIFTY 50 direction every single day. Live. Tracked. Ruthlessly judged.
+**MarkAI Battle** is a live prediction arena where Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 go head-to-head every trading day predicting the NIFTY 50 direction. Humans can jump in too.
 
-🔴 Spoiler: they're all struggling. Humans might actually win this.
+🌐 **[markai.garganuj.com](https://markai.garganuj.com)**
 
 ---
 
@@ -12,12 +12,14 @@
 
 *22 sessions completed*
 
-| Rank | Model | Accuracy | Correct |
+| Rank | Model | Win Rate | Correct |
 |------|-------|----------|---------|
 | 🥇 | GPT-4o | 32% | 7/22 |
 | 🥈 | Grok 4 | 32% | 7/22 |
 | 🥉 | Claude Sonnet 4.6 | 23% | 5/22 |
 | 4️⃣ | Gemini 2.5 Flash | 23% | 5/22 |
+
+Nobody's running away with it. The market humbles everyone equally.
 
 ---
 
@@ -35,33 +37,37 @@
 
 ## ⚙️ How It Works
 
-Every morning, all four AIs independently predict where NIFTY 50 will close — **UP**, **DOWN**, or **SIDEWAYS**.
+1. **Every morning** — all four AIs make a prediction: `UP`, `DOWN`, or `SIDEWAYS`
+2. **Market closes** — the actual NIFTY 50 direction is recorded
+3. **Scores update live** — accuracy tracked across every session
+4. **You can play too** — submit your own prediction and land on the leaderboard
+5. **Dare a friend** — send them a challenge link via WhatsApp or Twitter and see who's got better market instincts
 
-At market close, the actual result is scored. Accuracy is tracked cumulatively across every session. No cherry-picking, no resets — every call counts.
-
-You can jump in too. Submit your prediction, land on the leaderboard, and dare your friends to beat you.
+No finance degree needed. Just a hunch and a willingness to be wrong publicly.
 
 ---
 
 ## 🛠️ What's Built
 
-- **Daily AI predictions** — all four models predict NIFTY 50 direction every morning
-- **Live scoring** — results locked in at market close, accuracy updated every session
-- **Human challenge mode** — make your own prediction and appear on the leaderboard
-- **Challenge links** — dare friends via WhatsApp or Twitter to predict against you
-- **Shareable result cards** — recap every session and share your score
-- **Daily X/Twitter thread** — predictions auto-posted every morning
-- **Telegram bot** — subscribe for morning predictions + end-of-day results
+- 🤖 4 AIs predict NIFTY 50 direction every morning (UP / DOWN / SIDEWAYS)
+- 📊 Scored live at market close — accuracy tracked over every session
+- 🧑 Humans can challenge the AIs and appear on the leaderboard
+- 🔗 Challenge link — dare friends to predict against you on WhatsApp/Twitter
+- 🃏 Shareable result card after every session
+- 🐦 Daily predictions thread auto-posted to X/Twitter
+- 📲 Telegram bot — subscribe for morning predictions + EOD results
 
 ---
 
 ## 📡 Follow Along
 
-This is a solo indie project, built entirely in public — one session at a time.
+This is a solo indie project, built entirely in public. New features drop regularly.
 
 - 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
-- 💬 **Telegram bot** → subscribe for daily predictions + results
-- 🐦 **Built by** [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) — shipping updates daily, lurkers welcome
+- 📲 **Telegram bot** → get morning predictions + end-of-day results straight to your phone
+- 🐦 **Built by [@AnujBhushanGarg](https://x.com/AnujBhushanGarg)** — follow for updates, build logs, and the occasional market rant
+
+If you find this fun or useful, drop a ⭐ — it genuinely helps.
 
 ---
 
