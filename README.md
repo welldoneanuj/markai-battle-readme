@@ -1,24 +1,16 @@
 # MarkAI Battle ⚔️
 
-> Four AIs walk into a stock market. None of them know what they're doing. Neither do you. Let's find out who's worst together.
+> *Four AI models walk into a stock market. Only one can call it right.*
 
-**Live arena → [markai.garganuj.com](https://markai.garganuj.com)**
+Every morning, **Claude Sonnet 4.6**, **GPT-4o**, **Gemini 2.5 Flash**, and **Grok 4** each make a single prediction: will NIFTY 50 go **UP**, **DOWN**, or **SIDEWAYS** today? At market close, we find out who was right. No hedging. No explanations. Just a call.
 
----
+Humans can challenge them too.
 
-## What is this?
-
-Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 compete every trading day predicting whether NIFTY 50 will close **UP**, **DOWN**, or **SIDEWAYS**. Predictions lock in every morning. Scores update at market close. No cheating. No excuses.
-
-Humans can jump in too — challenge the AIs, land on the leaderboard, embarrass a robot.
-
-Built and run by a solo indie dev, completely in public.
+🌐 **[markai.garganuj.com](https://markai.garganuj.com)**
 
 ---
 
-## 🏆 Live Leaderboard
-
-*22 sessions completed*
+## 🏆 Leaderboard — 22 Sessions
 
 | Rank | Model | Win Rate | Wins |
 |------|-------|----------|------|
@@ -27,7 +19,7 @@ Built and run by a solo indie dev, completely in public.
 | 🥉 | Claude Sonnet 4.6 | 23% | 5/22 |
 | 4️⃣ | Gemini 2.5 Flash | 23% | 5/22 |
 
-> Spoiler: the market is humbling everyone equally.
+*The market humbles everyone equally.*
 
 ---
 
@@ -43,38 +35,40 @@ Built and run by a solo indie dev, completely in public.
 
 ---
 
-## ⚙️ How it works
+## ⚙️ How It Works
 
-1. **Every morning** — all four AIs independently predict NIFTY 50's direction for the day (UP / DOWN / SIDEWAYS)
-2. **Predictions lock** — no edits, no take-backs once the market opens
-3. **Market closes** — the actual outcome is recorded and each AI is scored
-4. **Leaderboard updates** — accuracy tracked across every session, forever
+1. **Every morning** — each AI independently predicts NIFTY 50 direction: UP, DOWN, or SIDEWAYS
+2. **Market closes** — the actual movement is recorded and predictions are scored
+3. **Leaderboard updates** — accuracy is tracked cumulatively across every session
+4. **You can play too** — make your own prediction and appear on the leaderboard alongside the AIs
 
-That's it. Pure prediction. No hedging, no confidence intervals, no "it depends."
-
----
-
-## 🛠️ What's built
-
-- 🤖 **4 AIs predicting daily** — UP / DOWN / SIDEWAYS, every trading morning
-- 📊 **Live scoring at market close** — accuracy tracked across every session
-- 🧑 **Human challenges** — jump in, make your prediction, appear on the leaderboard
-- 📣 **Challenge links** — dare friends to predict against you, shareable on WhatsApp & Twitter
-- 🃏 **Shareable result cards** — show off (or cope) after every session
-- 🐦 **Daily X/Twitter thread** — predictions auto-posted every morning
-- 📲 **Telegram bot** — subscribe for morning predictions + end-of-day results
+No fine-tuning tricks. No post-hoc reasoning. Just raw prediction, scored honestly.
 
 ---
 
-## 📡 Follow along
+## 🛠️ What's Built
 
-This is a **building in public** project — new features drop regularly, the leaderboard is always live, and the AIs are always one bad prediction away from a crisis.
+- 🤖 **4 AI predictions** every morning — UP / DOWN / SIDEWAYS, no abstaining
+- 📊 **Live scoring** at market close — accuracy tracked across every session
+- 🧑 **Human challenges** — predict against the AIs, appear on the leaderboard
+- 🔗 **Challenge links** — dare friends to beat you via WhatsApp or Twitter
+- 🃏 **Shareable result cards** — show off (or commiserate) after every session
+- 🐦 **Daily predictions thread** — auto-posted to X/Twitter every morning
+- 📲 **Telegram bot** — subscribe for morning predictions and end-of-day results
+
+---
+
+## 📣 Follow Along
+
+This is a solo indie project, built and run entirely in public. New features ship regularly.
 
 | | |
 |---|---|
 | 🌐 Live site | [markai.garganuj.com](https://markai.garganuj.com) |
-| 📲 Telegram bot | Subscribe on the live site |
+| 📲 Telegram bot | Subscribe for daily predictions + results |
 | 🐦 Built by | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
+
+If you find this interesting, give it a ⭐ — it genuinely helps.
 
 ---
 
