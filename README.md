@@ -1,72 +1,80 @@
-# MarkAI Battle ⚔️
+# MarkAI Battle 🤖⚔️
 
-> Four AIs walk into a market. Only one can win.
+> Four AIs. One market. Zero mercy.
 
-**Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4** predict the NIFTY 50's daily direction — UP, DOWN, or SIDEWAYS. Scored at market close. No excuses. No hallucinations forgiven.
+Every morning, **Claude Sonnet 4.6**, **GPT-4o**, **Gemini 2.5 Flash**, and **Grok 4** go head-to-head predicting whether NIFTY 50 closes UP, DOWN, or SIDEWAYS. The market decides who's right. No hype — just cold, hard accuracy.
 
-🔗 **Live arena → [markai.garganuj.com](https://markai.garganuj.com)**
+Humans can challenge them too. 👀
+
+**→ [markai.garganuj.com](https://markai.garganuj.com)**
 
 ---
 
 ## 🏆 Live Leaderboard
-*22 sessions completed*
 
-| Rank | AI | Win Rate | Wins |
-|------|----|----------|------|
-| 🥇 | GPT-4o | 32% | 7/22 |
-| 🥈 | Grok 4 | 32% | 7/22 |
-| 🥉 | Claude Sonnet 4.6 | 23% | 5/22 |
-| 4️⃣ | Gemini 2.5 Flash | 23% | 5/22 |
+*24 sessions completed*
 
-> The machines are humbling themselves so you don't have to. Come challenge them.
+| Rank | Model | Accuracy | Correct |
+|------|-------|----------|---------|
+| 🥇 | GPT-4o | 38% | 9/24 |
+| 🥈 | Grok 4 | 33% | 8/24 |
+| 🥉 | Claude Sonnet 4.6 | 29% | 7/24 |
+| 4️⃣ | Gemini 2.5 Flash | 25% | 6/24 |
+
+Nobody's running away with it. The market humbles everyone equally.
 
 ---
 
 ## 📅 Recent Results
 
-| Date | Result | NIFTY Close |
-|------|--------|-------------|
+| Date | Outcome | NIFTY Close |
+|------|---------|-------------|
+| 2026-05-12 | 🔴 DOWN | 23380 |
+| 2026-05-11 | 🔴 DOWN | 23816 |
 | 2026-05-08 | 🔴 DOWN | 24176 |
 | 2026-05-07 | 🟡 SIDEWAYS | 24327 |
 | 2026-05-06 | 🟢 UP | 24331 |
-| 2026-05-05 | 🔴 DOWN | 24033 |
-| 2026-05-04 | 🟢 UP | 24119 |
+
+Three red days in a row. The AIs had opinions. The market did not care.
 
 ---
 
-## 🤔 How It Works
+## ⚙️ How It Works
 
-1. **Every morning** — all four AIs independently predict whether NIFTY 50 closes UP, DOWN, or SIDEWAYS
-2. **Market closes** — the actual result is locked in and predictions are scored
-3. **Leaderboard updates** — accuracy is tracked across every session, no resets
-4. **You can play too** — submit your own prediction and land on the leaderboard if you beat the AIs
+1. **Every morning** — all four AIs analyze the market and lock in their prediction: `UP`, `DOWN`, or `SIDEWAYS`
+2. **Market closes** — NIFTY 50 closing price is recorded
+3. **Score updates live** — whoever called it right gets the point, leaderboard refreshes
+4. **You can play too** — jump in, make your own prediction, and see how you stack up against the models
+5. **Share the chaos** — challenge a friend via WhatsApp or Twitter and see who's better at being wrong
 
-It's part experiment, part game, part honest look at whether frontier AI models are actually useful for market direction calls. (Spoiler so far: barely above a coin flip. Which is kind of the point.)
+It's a long game. 24 sessions in, nobody's cracked 40% yet. 👀
 
 ---
 
 ## 🛠️ What's Built
 
-- **Daily AI predictions** — Claude, GPT-4o, Gemini, and Grok each call UP / DOWN / SIDEWAYS every morning
-- **Live scoring** — results locked at market close, accuracy tracked across all sessions
-- **Human challenger mode** — predict against the AIs and appear on the leaderboard
-- **Challenge links** — dare a friend to beat you on WhatsApp or Twitter with one tap
-- **Shareable result cards** — recap card generated after every session
-- **Auto X/Twitter threads** — daily predictions posted automatically each morning
-- **Telegram bot** — subscribe for morning predictions and end-of-day results delivered to you
+- **Daily AI predictions** — all 4 models predict NIFTY 50 direction every morning (UP / DOWN / SIDEWAYS)
+- **Live scoring** — accuracy tracked and updated at market close, every session
+- **Human challenge mode** — make your own prediction and land on the leaderboard
+- **Challenge links** — dare friends to predict against you, shareable on WhatsApp & Twitter
+- **Result cards** — shareable image generated after every session
+- **Auto Twitter thread** — daily predictions posted to X/Twitter every morning
+- **Telegram bot** — subscribe to get morning predictions + end-of-day results delivered to you
 
 ---
 
 ## 👀 Follow Along
 
-This is a solo indie project, built and run in public — one session at a time.
+This is a solo indie project, built entirely in public. New features shipping regularly.
 
-- 🌐 **Live site** → [markai.garganuj.com](https://markai.garganuj.com)
-- 📬 **Telegram bot** → subscribe on the site for daily updates
-- 🐦 **Built by** [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) — come say hi, roast the AIs, or share your own predictions
+| | |
+|---|---|
+| 🌐 Live site | [markai.garganuj.com](https://markai.garganuj.com) |
+| 📱 Telegram bot | Subscribe for daily predictions + results |
+| 🐦 Built by | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
 
-If you find this interesting, drop a ⭐ — it genuinely helps a solo dev keep building.
+If this is interesting to you — follow along, jump in with a prediction, or just watch four AIs collectively fail to beat a coin flip. Either way, welcome. 🙂
 
 ---
 
-*Last updated: 2026-05-11*
+*Last updated: 2026-05-12*
