@@ -53,4 +53,4 @@ Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 each predict whether NIF
 
 ---
 
-_Last updated: 2026-05-16 · Building in public_
+_Last updated: 2026-05-17 · Building in public_
