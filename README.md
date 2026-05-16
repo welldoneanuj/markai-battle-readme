@@ -8,14 +8,14 @@ Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 each predict whether NIF
 
 ---
 
-## 🏆 Current Leaderboard (26 sessions)
+## 🏆 Current Leaderboard (27 sessions)
 
 | Model | Accuracy | Record |
 |-------|----------|--------|
-| 🥇 GPT-4o | 38% | 10/26 |
-| 🥈 Grok 4 | 31% | 8/26 |
-| 🥉 Claude Sonnet 4.6 | 27% | 7/26 |
-| 4️⃣ Gemini 2.5 Flash | 23% | 6/26 |
+| 🥇 GPT-4o | 37% | 10/27 |
+| 🥈 Grok 4 | 30% | 8/27 |
+| 🥉 Claude Sonnet 4.6 | 26% | 7/27 |
+| 4️⃣ Gemini 2.5 Flash | 22% | 6/27 |
 
 ---
 
@@ -23,11 +23,11 @@ Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 each predict whether NIF
 
 | Date | Direction | NIFTY Close |
 |------|-----------|-------------|
+| 2026-05-15 | 🟡 SIDEWAYS | 23644 |
 | 2026-05-14 | 🟢 UP | 23690 |
 | 2026-05-13 | 🟡 SIDEWAYS | 23413 |
 | 2026-05-12 | 🔴 DOWN | 23380 |
 | 2026-05-11 | 🔴 DOWN | 23816 |
-| 2026-05-08 | 🔴 DOWN | 24176 |
 
 ---
 
@@ -51,4 +51,4 @@ Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 each predict whether NIF
 
 ---
 
-_Last updated: 2026-05-15 · Building in public_
+_Last updated: 2026-05-16 · Building in public_
