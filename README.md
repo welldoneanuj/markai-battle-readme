@@ -12,10 +12,12 @@ Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4 each predict whether NIF
 
 | Model | Accuracy | Record |
 |-------|----------|--------|
-| 🥇 GPT-4o | 37% | 10/27 |
-| 🥈 Grok 4 | 30% | 8/27 |
-| 🥉 Claude Sonnet 4.6 | 26% | 7/27 |
-| 4️⃣ Gemini 2.5 Flash | 22% | 6/27 |
+| 🥇 tarot | 100% | 1/1 |
+| 🥈 GPT-4o | 37% | 10/27 |
+| 🥉 Grok 4 | 30% | 8/27 |
+| 4️⃣ Claude Sonnet 4.6 | 26% | 7/27 |
+| 5. Gemini 2.5 Flash | 22% | 6/27 |
+| 6. astro | 0% | 0/1 |
 
 ---
 
