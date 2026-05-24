@@ -1,8 +1,10 @@
 # MarkAI Battle ⚔️
 
-> Four AIs walk into a stock market. None of them are winning. Yet.
+> *Four AI models walk into a stock market. Only one will be right.*
 
-**Claude vs GPT-4o vs Gemini vs Grok** — predicting NIFTY 50 direction every single day. Humans can jump in too. May the best mind win.
+A live prediction arena where **Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, and Grok 4.3** go head-to-head every trading day — each predicting whether NIFTY 50 closes UP, DOWN, or SIDEWAYS. Scored at market close. No excuses. No backtesting. Just cold, live accountability.
+
+Humans can jump in too. 👀
 
 🔗 **[markai.garganuj.com](https://markai.garganuj.com)**
 
@@ -10,18 +12,18 @@
 
 ## 🏆 Live Leaderboard
 
-*30 sessions completed*
+*32 sessions completed*
 
 | Rank | Predictor | Accuracy | Correct |
 |------|-----------|----------|---------|
-| 🥇 | tarot | 50% | 2/4 |
-| 🥈 | GPT-4o | 38% | 10/26 |
-| 🥉 | Claude Sonnet 4.6 | 35% | 9/26 |
-| 4️⃣ | Grok 4.3 | 35% | 9/26 |
-| 5️⃣ | Gemini 2.5 Flash | 27% | 7/26 |
-| 6️⃣ | astro | 0% | 0/4 |
+| 🥇 | tarot | 50% | 3/6 |
+| 🥈 | GPT-4o | 36% | 10/28 |
+| 🥉 | Grok 4.3 | 33% | 9/27 |
+| 4️⃣ | Claude Sonnet 4.6 | 32% | 9/28 |
+| 5️⃣ | Gemini 2.5 Flash | 25% | 7/28 |
+| 6️⃣ | astro | 0% | 0/6 |
 
-> A tarot card reader is currently beating all four frontier AI models. Let that sink in.
+> A tarot card reader is currently beating every AI on this list. The market is humbling.
 
 ---
 
@@ -29,49 +31,50 @@
 
 | Date | Outcome | NIFTY Close |
 |------|---------|-------------|
+| 2026-05-22 | 🟡 SIDEWAYS | 23719 |
+| 2026-05-21 | 🟡 SIDEWAYS | 23655 |
 | 2026-05-20 | 🟡 SIDEWAYS | 23659 |
 | 2026-05-19 | 🟡 SIDEWAYS | 23618 |
 | 2026-05-18 | 🟡 SIDEWAYS | 23650 |
-| 2026-05-15 | 🟡 SIDEWAYS | 23644 |
-| 2026-05-14 | 🟢 UP | 23690 |
+
+> Five straight SIDEWAYS days. The AIs are suffering. So is everyone else.
 
 ---
 
 ## ⚙️ How It Works
 
-1. **Every morning** — Claude, GPT-4o, Gemini, and Grok each make a prediction: will NIFTY 50 close **UP**, **DOWN**, or **SIDEWAYS**?
-2. **Market closes** — the actual result is fetched and every prediction is scored automatically
-3. **Leaderboard updates** — accuracy is tracked cumulatively across all sessions
-4. **You can play too** — submit your own prediction and appear on the leaderboard alongside the AIs
+Every morning before market open, each AI independently predicts whether NIFTY 50 will close **UP**, **DOWN**, or **SIDEWAYS** that day — with reasoning. At market close, predictions are scored automatically and the leaderboard updates in real time.
 
-Simple. Brutal. Honest.
+No cherry-picking. No post-hoc explanations. Every prediction is locked in and public before the market opens.
+
+Anyone can challenge the AIs by making their own prediction. Beat them consistently and you'll climb the leaderboard. Spoiler: it's harder than it looks.
 
 ---
 
 ## 🛠️ What's Built
 
-- 🤖 **4 AIs predict daily** — UP / DOWN / SIDEWAYS, every market morning
-- 📊 **Live scoring at market close** — accuracy tracked across every session
-- 🧑‍💻 **Human challenges** — beat the AIs, claim your spot on the leaderboard
-- 🔗 **Challenge links** — dare friends to predict against you via WhatsApp or Twitter
-- 🃏 **Shareable result cards** — show off (or commiserate) after every session
-- 🐦 **Auto-posted to X/Twitter** — daily predictions thread goes out every morning
-- 📲 **Telegram bot** — subscribe for morning predictions and end-of-day results
+- **Daily AI predictions** — All 4 models predict NIFTY 50 direction (UP / DOWN / SIDEWAYS) every morning
+- **Live scoring** — Results locked and graded at market close, accuracy tracked across every session
+- **Human challenges** — Jump in, make your pick, appear on the leaderboard
+- **Challenge links** — Dare friends to predict against you via WhatsApp or Twitter
+- **Shareable result cards** — Share your session result after every close
+- **Auto X/Twitter thread** — Daily predictions posted to Twitter every morning
+- **Telegram bot** — Subscribe for morning predictions and end-of-day results
 
 ---
 
 ## 📣 Follow Along
 
-This is a solo indie project, built entirely in public — rough edges and all.
+This is a solo indie project, built and run entirely in public — no team, no funding, just curiosity and coffee.
 
 | | |
-|---|---|
+|--|--|
 | 🌐 Live site | [markai.garganuj.com](https://markai.garganuj.com) |
-| 📲 Telegram bot | Subscribe for daily predictions + results |
+| 💬 Telegram bot | Subscribe for daily predictions + results |
 | 🐦 Built by | [@AnujBhushanGarg](https://x.com/AnujBhushanGarg) |
 
-If you find this interesting, drop a ⭐ — it genuinely helps a solo dev keep going.
+If this project entertains you, confuses you, or makes you feel better about your own stock picks — give it a ⭐ and share it around.
 
 ---
 
-*Last updated: 2026-05-21*
+*Last updated: 2026-05-25*
